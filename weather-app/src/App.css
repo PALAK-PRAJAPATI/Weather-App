@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.div{
+    background-color: #1F213A;
+    height: 100vh;
+}
+.left{
+    /* background-color: rgb(167, 167, 254); */
+    width: 280px;
+    height: 350px;
+}
+.right{
+    /* background-color: rgb(133, 133, 236); */
+    width: 400px;
+    height: 350px;
+}
+.input{
+    margin-top: 2px;
+    margin-left: 10px;
+
+}
+.input-city{
+    background-color: rgb(130, 150, 170);
+    color: white;
+    border: 2px solid #6e6e6e;
+    font-size: medium;
+    outline: none;
+    font-weight: 500;
+}
+::placeholder{
+    color: rgb(179, 183, 188);
+    letter-spacing: 1px;
+}
+input[type=text]:focus{
+    border:2px solid #555;
+    
+}
+.icon{
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 25px;
+    color:steelblue;
+    cursor: pointer;
+}
+.icon:hover{
+    scale: 1.1;
+}
+.moon-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.moon-icon:hover{
+    scale: 1.1;
+}
+.sun{
+    font-size: 3.5rem;
+    color: orange;
+}
+.moon{
+    font-size: 3.5rem;
+    color: whitesmoke;
+}
+.degree{
+    color: whitesmoke;
+}
+.degree p{
+    font-size: 55px;
+}
+
+.degree span{
+    font-size: 45px;
+}
+.weather-type{
+    color: rgb(245, 245, 233);
+    font-size: 25px;
+}
+.date{
+    color: #7f7f7f;
+}
+
+
+/* Right side component */
+.right h5{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.5px;
+    text-decoration: underline dotted whitesmoke ;
+}
+
+/* Hightlight's Seection */
+.highlight-box{
+    background-color: slategray;
+    border-radius: 2px;
+    width: 150px;
+    /* height: 10px; */
+    display: flex;
+    flex-direction: column;
+
+
+}
+.degree-span{
+    font-size: 2rem;
+    color: white;
+    /* text-align: center; */
+}
+.status-span{
+    color: white;
+    margin-left: 2px;
+    font-size: 15px;
+}
+
+.direction-icon{
+    color: white;
+    font-weight: bold;
+}
